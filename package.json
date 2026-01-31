@@ -1,0 +1,20 @@
+{
+  "name": "whisper-js",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "bin": {
+    "whisper-js": "./src/bin.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  },
+  "author": "Alexander Porrello",
+  "license": "MIT",
+  "description": "A Node.js utility script that transcribes audio files using Whisper CLI. It can process individual audio files or recursively transcribe entire directories of audio files (mp3, ogg, wav, flac). The script includes configurable transcription parameters, with sensible defaults for high-quality transcription."
+}
