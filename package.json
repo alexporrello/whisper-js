@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
+    "preinstall": "node install-whisper-cpp.js",
     "build": "npx tsc"
   },
   "bin": {
